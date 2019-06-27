@@ -1,4 +1,6 @@
-# demo
+# Libra wallet demo
+Currently, FB doesn't provide full APIs to implement web-wallet, thus we use
+Libra CLI running on server + service to map client web-requests to CLI commands.
 
 ## Project setup
 ```
@@ -13,16 +15,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
