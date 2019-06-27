@@ -12,7 +12,6 @@ import App           from '@/app.vue';
 import AppDirectives from '@/app-directives.js';
 import AppFilters    from '@/app-filters.js';
 import AppMixin      from '@/app-mixin.js';
-import utils         from '@/utils.widgetapi';
 
 //Vue.config.productionTip = false
 
@@ -23,13 +22,7 @@ Vue.mixin(AppMixin);
 Framework7.use(Framework7Vue);
 
 // make global
-window.utils = utils;
-
-// make global
 window.$ = Framework7.$;
-
-// forget previous enrolling card
-utils.cardEnrolling(null);
 
 window.app = new Vue({
   render: h => h(App),
@@ -37,8 +30,6 @@ window.app = new Vue({
 
 window.$(document).on('deviceready', () => {
   window.console.log('deviceready')
-  utils.showMe();
-  utils.hideSplashScreen();
 });
 
 

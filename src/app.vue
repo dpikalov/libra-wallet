@@ -17,8 +17,6 @@
 <script>
   import { f7App, f7Panel, f7View, f7Popup, f7Statusbar } from 'framework7-vue';
   import routes from '@/app-routes';
-  //import webpay from '@/utils.webpay.js';
-  //import utils  from '@/utils.widgetapi.js';
 
 
   export default {
@@ -35,7 +33,7 @@
         f7Params: {
           theme: 'md',
           routes,
-          id: 'com.gieseckedevrient.wallet',
+          id: 'com.libra.wallet',
         },
       };
     },
