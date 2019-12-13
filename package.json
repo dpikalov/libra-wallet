@@ -28,7 +28,7 @@
     "framework7": "^3.6.5",
     "framework7-vue": "^3.6.5",
     "install": "^0.12.2",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "vue-async-computed": "^3.5.2",
     "vue-template-compiler": "^2.5.21"
   },
